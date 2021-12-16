@@ -12,7 +12,12 @@ This repository contains an overview of the matplotlib.pyplot Python package and
 
 This notebook contains:
 - A concise overview of the matplotlib.pyplot Python package.
-- An in-depth explanation of three interesting plots from the matplotlib.pyplot Python package.
+- An in-depth explanation of three interesting plots from the matplotlib.pyplot Python package which are:
+
+1. Histograms
+2. Scatter Plots
+3. Box Plots
+
 
 ### cao.ipynb
 
@@ -77,13 +82,26 @@ Please see the official [Installation of Camelot](https://camelot-py.readthedocs
 
 Changing some of the parameters for the following in the `pyplot.ipynb` notebook will have some interesting effects:
 
+1. In the Changing the Figure Size section, change `Y = np.sin(X)` to `Y = np.cos(X)`
+2. In the Saving Figures section, change the seed parameter inside `rng = np.random.default_rng(99)` and re run the whole notebook to see different data on the Scatter Plots.
+3. In the Scatter Plots section, change the `low` and `high` values of the integers.
+4. In the Scatter Plots section and the Box Plots section, change the cmap parameter using the [cmap list](https://matplotlib.org/stable/tutorials/colors/colormaps.html).
+5. In the Tilting the Figure sub-section of the 3D Scatter Plot section, change the `ax.view_init` parameter to see different angles on the 3D Scatter Plot
+
 ### cao.ipynb
 
 Changing some of the parameters for the following in the `cao.ipynb` notebook will have some interesting effects:
 
 ## Credits
 
-I heavily relied on... in creating this repository. You can fidn it here
+### Pyplot.ipnb
+
+I heavily relied on the following YouTube channels:
+
+[Kimberly Fessel](https://www.youtube.com/channel/UCirb0k3PnuQnRjh8tTJHJuA)<br>
+[Corey Schafer](https://www.youtube.com/c/Coreyms)<br>
+
+### cao.ipynb
 
 ## Contact
 
