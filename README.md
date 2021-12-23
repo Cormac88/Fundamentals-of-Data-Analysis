@@ -40,7 +40,7 @@ This notebook contains:
 
 ### Installing Python and Jupyter Notebook
 
-1. Python and jupyter lab are needed to run the `.ipnb` files in this repository.
+1. Python and jupyter lab are needed to run the `.ipynb` files in this repository.
 
 1. Download `Python` from https://www.python.org/.
 
