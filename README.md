@@ -4,7 +4,7 @@
 
 # Overview of the Pyplot Python Package and a Data Analysis of the CAO Webiste
 
-This repository contains an overview of the matplotlib.pyplot Python package and also a concise overview on how to load CAO points information from the CAO website into a pandas data frame and an analysis of the CAO from the last few years using different data analysis techniques.
+This repository contains an overview of the `matplotlib.pyplot` Python package and also a concise overview on how to load CAO points information from the CAO website into a pandas data frame and an analysis of the CAO from the last few years using different data analysis techniques.
 
 ## Overview
 
@@ -24,7 +24,11 @@ This notebook contains:
 This notebook contains:
 - An overview of how to load CAO points information from the CAO website into a pandas data frame.
 - A detailed comparison of CAO points in 2019, 2020, and 2021 using the functionality in pandas.
-- Plots and other visualisations to show the data analysis.
+- Plots and other visualisations to show the data analysis which are
+    - Countplots
+    - Pieplots
+    - Barplots
+    - Histograms
 
 ## Quick Steps
 
@@ -90,7 +94,7 @@ Changing some of the parameters for the following in the `pyplot.ipynb` notebook
 
 ### cao.ipynb
 
-Changing some of the parameters for the following in the `cao.ipynb` notebook will have some interesting effects:
+I created a filter in the `Round 1 Analysis` and `Round 2 Analysis` to check any course of interest. All you need to do is change the `college_choice` object to filter the courses.
 
 ## Credits
 
@@ -102,6 +106,8 @@ I heavily relied on the following YouTube channels:
 [Corey Schafer](https://www.youtube.com/c/Coreyms)<br>
 
 ### cao.ipynb
+
+I heavily relied on the following on the [statology](www.statology.org) website.
 
 ## Contact
 
