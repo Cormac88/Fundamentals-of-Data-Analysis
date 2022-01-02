@@ -5,4 +5,4 @@ requests
 datetime
 camelot
 seaborn
-urllib
+urllib.request
