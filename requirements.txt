@@ -1,9 +1,9 @@
 numpy
-matplotlib.pyplot
+matplotlib
 pandas
 requests
 re
 datetime
 camelot
 seaborn
-urllib.request
+urllib
